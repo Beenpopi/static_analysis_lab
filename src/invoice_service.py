@@ -20,6 +20,7 @@ class Invoice:
 
 class InvoiceService:
     def __init__(self) -> None:
+        
         self._coupon_rate: Dict[str, float] = {
             "WELCOME10": 0.10,
             "VIP20": 0.20,
